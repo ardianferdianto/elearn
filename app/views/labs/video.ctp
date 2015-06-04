@@ -112,7 +112,7 @@ a#download2-btn{
 			<div class="rg-caption" style="display:none;">
 				<p class="title" style="font-size:20px;font-weight:bold;"></p>
 				<p class="description" > </p>
-				<div style="display: block;float: left;margin: 0 auto;margin-top: 10px;text-align: center;width: 100%;">
+				<div style="display: block;float: left;margin: 0 auto;margin-top: 21px;text-align: center;width: 100%;">
 					<a href="/schoolmanagement_sd/labs/edit/2/106" class="button-pembelajaran edit-ebook" id="edit-ebook" rel="modal">Edit</a>
 
 					<a href="/schoolmanagement_sd/labs/../files/labs/bahan_kimia_bagian_1.flv" class="button-pembelajaran download-ebook" id="download2-btn">Download</a>
@@ -147,9 +147,9 @@ a#download2-btn{
 				</select>
 			</div>
 			<div id="tmenu" style="  margin-top: -21px; margin-bottom: 15px;">
-			<a href="<?php echo $this->webroot;?>users/home" id="backtohome" class="tooltip" title="Kembali Ke Awal"><img src="<?php echo $this->webroot;?>resources/images/home_flat.png"></a>
+			<a href="<?php echo $this->webroot;?>users/home" id="backtohome" class="tooltip" title="Kembali Ke Awal"><img src="<?php echo $this->webroot;?>resources/images/home2.png"></a>
 
-			<a href="#upload-ebook" rel="modal" id="uploadebook" class="tooltip" title="Upload Video" style="margin-left: 127px;"><img src="<?php echo $this->webroot;?>resources/images/add_flat.png"></a>
+			<a href="#upload-ebook" rel="modal" id="uploadebook" class="tooltip" title="Upload Video" style="margin-left: 127px;"><img src="<?php echo $this->webroot;?>resources/images/add-black2.png"></a>
 			</div>
 			
 		</div>

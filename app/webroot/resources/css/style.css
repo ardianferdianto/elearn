@@ -426,7 +426,7 @@ ul.content-box-tabs li a.current {
 .content-box-content {
                 padding: 20px;
                 font-size: 13px;
-                border-top: 1px solid #ccc;
+                border-top: 0px solid #ccc;
                 }
 
 /************ Table ************/
@@ -448,6 +448,7 @@ ul.content-box-tabs li a.current {
 
 #main-content tbody tr {
                 background: #fff;
+                color: #000;
                 }
 
 #main-content tbody tr.alt-row,#main-content li.alt-row{
@@ -1863,10 +1864,10 @@ div.maincontent {
 }
 
 #labs-detail p{
-    color:#000;
+    color:#fff;
 }
 #labs-detail strong{
-    color: #444343;
+    color: #fff;
 }
 #delete-ebook{
     position: absolute;
@@ -1899,7 +1900,7 @@ div.maincontent {
     background-position:bottom; left;
 }
 a#download2-btn{
-    background-image: url('../images/button/download211.png');
+    background-image: url('../images/button/download21.png');
     position: absolute;
     top: -77px;
     right: 260px;
@@ -2283,13 +2284,13 @@ ul#menu_list_email.menu_list_email-bottom{
 /*PRESENTASE*/
 
 #presentase-template{
-     background: #EFEDED;
+     /*background: #EFEDED;*/
     width: 100%;
     height: 100%;
     position: relative;
 }
 #presentase-template-content{
-     background: #EFEDED url('../images/presentasi-top1.png')repeat-x;
+    
     width: 100%;
     height: 100%;
     position: relative;
@@ -2302,7 +2303,7 @@ ul#menu_list_email.menu_list_email-bottom{
     min-height: 700px;
 }
 #presentase-content2{
-    width:1100px;
+    width:990px;
     margin: 0 auto;
     padding-bottom: 130px;
     text-align: center;
@@ -2333,37 +2334,37 @@ ul#menu_list_email.menu_list_email-bottom{
 #presentase-siswa-head{
     width: 800px;
     height:342px;
-    background: transparent url('../images/presentasi-siswa-head2.png')no-repeat top left;
+    
     display: block;
     margin: 250px 0 0 100px;
     float: left;
     position: relative;
 }
 #presentase-content h2{
-    color: #000;
+    color: #FFF;
     text-align: left;
     position: absolute;
     top:40px;
-    left:200px;
+    left:290px;
     font-size: 35px;
 
 }
 #presentase-content2 h2{
     color: #fff;
-    text-align: left;
+    text-align: center;
     position: absolute;
-    top:30px;
-    left:35px;
+    top:3em;
+    left:12em;
     font-size: 30px;
 }
 #presentase-siswa-head ul{
     position: absolute;
-    left: 85px;
+    left: -4em;
     top:55px;
 }
 #presentase-siswa-head ul li a{
-    width: 112px;
-    height: 97px;
+    width: 250px;
+    height: 250px;
     -webkit-transition: .25s ease-in;
     -moz-transition: .25s ease-in;
     -o-transition: .25s ease-in;
@@ -3428,27 +3429,34 @@ a .ok:hover{
     color:#000;
 } 
 
+#presentase-siswa-head ul li a#presentase-head-guru{
+    /*background:  #E20613 url('../images/presentase-kelas11.png') no-repeat top left;*/
+    background:  rgba(0, 0, 0, 0) url('../images/guru2.png') no-repeat top left;
 
+}
+#presentase-siswa-head ul li a#presentase-head-guru:hover{
+    background: rgba(0, 0, 0, 0) url('../images/guru3.png') no-repeat top left;
+}
 #presentase-siswa-head ul li a#kelas7{
     /*background:  #E20613 url('../images/presentase-kelas11.png') no-repeat top left;*/
-    background:  #000 url('../images/presentase-kelas71.png') no-repeat top left;
+    background:  rgba(0, 0, 0, 0) url('../images/kelas10-2.png') no-repeat top left;
 
 }
 #presentase-siswa-head ul li a#kelas7:hover{
-    background: #a09f9f url('../images/presentase-kelas7.png') no-repeat top left;
+    background: rgba(0, 0, 0, 0) url('../images/kelas10-3.png') no-repeat top left;
 }
 #presentase-siswa-head ul li a#kelas8{
     /*background: #E95A0C url('../images/presentase-kelas21.png') no-repeat top left;*/
-    background: #000 url('../images/presentase-kelas81.png') no-repeat top left;
+    background: rgba(0, 0, 0, 0) url('../images/kelas11-2.png') no-repeat top left;
 }
 #presentase-siswa-head ul li a#kelas8:hover{
-    background: #a09f9f url('../images/presentase-kelas8.png') no-repeat top left;
+    background: rgba(0, 0, 0, 0) url('../images/kelas11-3.png') no-repeat top left;
 }
 #presentase-siswa-head ul li a#kelas9{
     /*background: #FFDD00 url('../images/presentase-kelas31.png') no-repeat top left;*/
-    background: #000 url('../images/presentase-kelas91.png') no-repeat top left;
+    background: rgba(0, 0, 0, 0) url('../images/kelas12-2.png') no-repeat top left;
 }
 #presentase-siswa-head ul li a#kelas9:hover{
-    background: #a09f9f url('../images/presentase-kelas9.png') no-repeat top left;
+    background: rgba(0, 0, 0, 0) url('../images/kelas12-3.png') no-repeat top left;
 }
 

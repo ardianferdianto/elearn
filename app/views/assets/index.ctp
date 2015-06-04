@@ -4,12 +4,13 @@
 
 	<div id="presentase-content" class="clearfix">
 		<a id="" style="position:absolute;top:27px;right:10px;" href="<?php echo $this->webroot; ?>users/home">
-		<img src="<?php echo $this->webroot; ?>resources/images/back11.png" alt="icon">
+		<img src="<?php echo $this->webroot; ?>resources/images/home2.png" alt="icon">
 		</a>
 	<h2>PRESENTASI SISWA & GURU</h2>
-		<a id="presentase-head-guru" href="<?php echo $this->webroot; ?>assets/guru"><img src="<?php echo $this->webroot; ?>resources/images/presentasi-guru-head1.png" alt="icon"></a>
+		<!-- <a id="presentase-head-guru" href="<?php echo $this->webroot; ?>assets/guru"><img src="<?php echo $this->webroot; ?>resources/images/presentasi-guru-head1.png" alt="icon"></a> -->
 		<div id="presentase-siswa-head">
-			<ul>
+			<ul style="width: 1000px;">
+				<li><a id="presentase-head-guru" href="<?php echo $this->webroot; ?>assets/guru" ></a></li>
 				<li><a id="kelas7" href="<?php echo $this->webroot; ?>users/presentase_siswa/7" /></a></li>
 				<li><a id="kelas8" href="<?php echo $this->webroot; ?>users/presentase_siswa/8" /></a></li>
 				<li><a id="kelas9" href="<?php echo $this->webroot; ?>users/presentase_siswa/9" /></a></li>

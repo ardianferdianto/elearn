@@ -166,8 +166,8 @@
 <div id="change-pwd" style="display:none;">
 
     <?php echo $form->create('User',array('action'=>'change_password'));?>
-    <h2><?php __('Form Perubahan Password');?></h2>
-        <fieldset>
+    <h2 style="color: #000;font-size: 25px;"><?php __('Form Perubahan Password');?></h2>
+        <fieldset style="color: #000;">
 
         <?php
 
@@ -175,10 +175,10 @@
 
             //echo $form->input('goup_id',array('type'=>'hidden','value'=>$user['User']['group_id']));
             echo '<p>';
-            echo $form->input('password',array('label'=>'Masukkan Password baru minimum 4 karakter','class'=>'text-input medium-input','value'=>''));
+            echo $form->input('password',array('style'=>'color: #000;','label'=>'Masukkan Password baru minimum 4 karakter','class'=>'text-input medium-input','value'=>''));
             echo '</p>';
             echo '<p>';
-            echo $form->input('password_confirm', array('type'=>'password','label'=>'Masukkan Password baru sekali lagi','class'=>'text-input medium-input'));
+            echo $form->input('password_confirm', array('style'=>'color: #000;','type'=>'password','label'=>'Masukkan Password baru sekali lagi','class'=>'text-input medium-input'));
             echo '</p>';
 
         ?>

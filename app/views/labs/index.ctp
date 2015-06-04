@@ -12,8 +12,8 @@ body{
 }
 #uploadebook{
   position: absolute;
-  left: 147px;
-  top: 220px;
+right: 147px;
+top: 110px;
 }
 #backtohome{
     position: absolute;
@@ -31,9 +31,9 @@ body{
 </style>
 <div id="newebook">
 	<img id="logo" src="<?php echo $this->webroot;?>homenew/images/logo.png" style="width: 145px; top: 14px; left: 47px;">
-	<a href="#upload-ebook" rel="modal" id="uploadebook" class="tooltip" title="Upload Ebook"><img src="<?php echo $this->webroot;?>resources/images/add_flat.png"></a>
+	<a href="#upload-ebook" rel="modal" id="uploadebook" class="tooltip" title="Upload Ebook"><img src="<?php echo $this->webroot;?>resources/images/add-black2.png"></a>
 
-    <a href="<?php echo $this->webroot;?>users/home" id="backtohome" class="tooltip" title="Kembali Ke Awal"><img src="<?php echo $this->webroot;?>resources/images/home_flat.png" style=" position: absolute; right: 1155px; top: 159px;"></a>
+    <a href="<?php echo $this->webroot;?>users/home" id="backtohome" class="tooltip" title="Kembali Ke Awal"><img src="<?php echo $this->webroot;?>resources/images/home2.png" style=" position: absolute; right: 100px; top: 52px"></a>
 	<?php echo $form->create('Lab',array('action'=>'search','type'=>'get','enctype'=>'multipart/form-data'));?>
                 
       <input type="search" id="searchquery_ebook" placeholder="Lakukan pencarian ebook disini, kemudian tekan enter" name="searchquery">

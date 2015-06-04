@@ -1,11 +1,11 @@
 <div id="presentase-template-content" class="clearfix">
-	<img style="position:absolute;top:10px;left:20px;" src="<?php echo $this->webroot; ?>resources/images/presentasi-ico11.png" alt="icon">
-	<img style="position:absolute;top:10px;right:20px;" src="<?php echo $this->webroot; ?>resources/images/presentasi-ico211.png" alt="icon">
+	<!-- <img style="position:absolute;top:10px;left:20px;" src="<?php echo $this->webroot; ?>resources/images/presentasi-ico11.png" alt="icon"> -->
+	<img id="logo" src="<?php echo $this->webroot;?>homenew/images/logo.png" style="width: 145px; top: 14px; left: 47px;position: absolute;" alt="icon">
 
 	<div id="presentase-content2" class="clearfix">
-		<h2>PRESENTASI<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SISWA KELAS <?php echo $idKelas;?></h2>
+		<h2>PRESENTASI<br/> SISWA KELAS <?php echo $idKelas;?></h2>
 		
-		<div style="margin-top:130px;" class="content-box-content">
+		<div style="margin-top:160px;" class="content-box-content">
 			<table class="data display datatable " id="example">
 			<thead>
 				<th><?php echo 'No';?></th>
@@ -22,7 +22,7 @@
 				$no ++;
 				$class = null;
 			?>
-				<tr>
+				<tr >
 				
 					<td>
 						<?php echo $no; ?>

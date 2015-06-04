@@ -1,7 +1,7 @@
 <div class="pengumumen index">
 	<div id="pengumuman-wrapper">
 		<a id="sd" href="../users/home" style="position:absolute;top:27px;left:0px;">
-		<img src="<?php echo $this->webroot; ?>resources/images/home1.png" style="width: 80px;
+		<img src="<?php echo $this->webroot; ?>resources/images/home2.png" style="width: 80px;
   height: 62px;
   display: block;
   text-indent: -999px;
