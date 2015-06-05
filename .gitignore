@@ -43,4 +43,5 @@ Thumbs.db
 
 #ignore files webroot
 /app/webroot/files/*
+/app/webroot/pembelajaran/*
 
