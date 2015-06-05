@@ -10,6 +10,9 @@
 ul#menu_list_info{
 	top:30px;
 }
+strong{
+	color:#fff;
+}
 </style>
 <div class="pengumuman-content">
 	<img id="logo" src="<?php echo $this->webroot;?>homenew/images/logo.png" style="width: 145px; top: 14px; left: 47px;">	

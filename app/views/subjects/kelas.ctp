@@ -144,8 +144,9 @@ a.trash_subject{
 		
 		echo $form->select('pelajaran_id',$listBidangStudi,null,array('class'=>'matpel_select'));
 		echo '</p>';
-		
+
 		?>
+
 
 		<p>
 		<?php

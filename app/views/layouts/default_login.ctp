@@ -80,6 +80,7 @@ $(function(){
 
 <div id="logocontainer">
 	<img id="logo" src="<?php echo $this->webroot;?>homenew/images/logo.png"/>
+	<img class="logoedusoft_bottom" src="<?php echo $this->webroot;?>images/logo-edu-small.png"/>
 	<img id="class" src="<?php echo $this->webroot;?>sigma/img/for_sma.png"/>
 </div>
 

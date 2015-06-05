@@ -273,6 +273,7 @@ a#download2-btn{
 </div><!--end labs upload div-->
 
 <script type="text/javascript">
+window.appurl="<?php echo $this->webroot;?>";
 jQuery('#dropdownfiltercategory').on('change', function() {
     jQuery.fancybox.showLoading();
     jQuery('#rg-gallery').fadeOut('slow');

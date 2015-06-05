@@ -1,3 +1,7 @@
+ <style type="text/css">
+ 
+ </style>
+ 
  <div class="content" style="top:-145px;">
       <div class="menuwrapper">
           <div class="mainmenu">
@@ -5,6 +9,7 @@
               <div class="menucenter">
                   <div class="logo-container">
 <!-- ========  Logo ======== -->
+
                       <img class="logo" alt="logotype" src="<?php echo $this->webroot;?>sigma/img/logo.png">
 <!-- ========  User's photo ======== -->
                       <img class="photo" alt="photo" src="<?php echo $this->webroot;?>sigma/img/for_sma.png">

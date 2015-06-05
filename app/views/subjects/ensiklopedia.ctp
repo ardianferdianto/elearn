@@ -82,7 +82,7 @@ a.trash_subject{
 			?>
 			<div class="itemisotope tooltip" title="<?php echo $subject['Subject']['name'] .' - '.$subject['Pelajaran']['nama']. '-' .$subject['Grade']['keterangan']?>">
 				<div class="box boxcd" id="#">
-					<a  href="<?php echo $this->webroot;?>subjects/view/?filename=<?php echo $this->webroot;?>pembelajaran/ensiklopedia/<?php echo $subject ['Subject']['id']; ?>/<?php echo $subject ['Subject']['file_name']; ?>&filefolder=<?php echo $this->webroot;?>/pembelajaran/ensiklopedia/<?php echo $subject ['Subject']['id']; ?>" class="ebookpopup">
+					<a  href="<?php echo $this->webroot;?>subjects/view/?filename=<?php echo $this->webroot;?>pembelajaran/ensiklopedia/<?php echo $subject ['Subject']['id']; ?>/<?php echo $subject ['Subject']['file_name']; ?>&filefolder=<?php echo $this->webroot;?>pembelajaran/ensiklopedia/<?php echo $subject ['Subject']['id']; ?>" class="ebookpopup">
 						<img class="videobox postim bittle" src="<?php echo $this->webroot;?><?php echo $subject['Subject']['icon'];?>"></img>
 
 						<?php if(($subject['Subject']['vendor_id']!=0) && ($subject['Subject']['vendor_id']!=1)):?>

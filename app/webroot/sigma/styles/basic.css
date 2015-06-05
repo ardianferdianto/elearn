@@ -329,6 +329,7 @@ body {
   position: relative;
   margin: 0 auto;
   display: table;
+  z-index: 2;
 }
 .content .menuwrapper {
   display: table-cell;

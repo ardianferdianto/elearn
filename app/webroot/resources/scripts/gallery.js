@@ -11,8 +11,8 @@ jQuery(function() {
 
 	// original: mit license. paul irish. 2010.
 	// contributors: Oren Solomianik, David DeSandro, Yiannis Chatzikonstantinou
+	//$serverlocation = window.appurl,
 	$serverlocation = window.appurl,
-
 	jQuery.fn.imagesLoaded 		= function( callback ) {
 	var $images = this.find('img'),
 		len 	= $images.length,

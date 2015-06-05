@@ -63,6 +63,12 @@ echo $html->css('/resources/css/tango/skin.css');?>
        float: left;
        color: #fff;
    }
+
+   img.logoedusoft_bottom{
+    position: absolute;
+    top: 100px;
+    left:275px;
+ }
    
 
 </style>
@@ -238,6 +244,7 @@ $(function(){
 
 	<body id="homenew">
 <div id="logocontainer">
+	<img class="logoedusoft_bottom" src="<?php echo $this->webroot;?>images/logo-edu-small.png"/>
 	<img id="logo" src="<?php echo $this->webroot;?>homenew/images/logo.png"/>
 	<img id="class" src="<?php echo $this->webroot;?>resources/images/for_sma.png"/>
 </div>
