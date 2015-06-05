@@ -61,7 +61,7 @@ h1.logo           { font-family: Calibri, Helvetica, Arial, sans-serif; font-siz
 				}
 
 h1            { font-size: 26px; padding: 0 0 10px 0; }
-h2            { font-size: 23px; padding: 0 0 10px 0; }
+h2            { font-size: 23px; padding: 0 0 10px 0; color:#000;}
 h3            { font-size: 17px; padding: 0 0 10px 0; }
 h4            { font-size: 16px; padding: 0 0 5px 0; }
 h5            { font-size: 14px; padding: 0 0 5px 0; }
@@ -73,7 +73,7 @@ a:hover     { color: #000; }
 a:active     { color: #777; }
 a:focus     { outline: 1px; }
 
-strong       { font-weight: bold; color: #FFF; }
+strong       { font-weight: bold; color: #000; }
 
 small   		{ font-size: 0.85em; }
 
@@ -631,6 +631,7 @@ form{
         text-align:left;
         background-color:#fff;
         padding:20px 30px;
+        color: #000;
 }
 form label {
                 display: block;
@@ -1533,7 +1534,7 @@ height:150px;
 
 }
 #ensiklopedia-isi{
-    background: #000 none ;
+    background: #000 url(../../homenew/images/aurora-wallpaper-8.jpg) no-repeat;
     width: 1196px;
     height: 604px;
     padding:0;
@@ -2123,9 +2124,9 @@ a#home-btn-video{
 
 .nav-info-category{
     display: block;
-    right: 0px;
+    left: 70px;
     position: absolute;
-    top: 5px;
+    top: 200px;
     width: 200px;
     z-index: 10;
 
@@ -2136,14 +2137,14 @@ a#home-btn-video{
 }
 .nav-info-category #info-sek-guru2{
     position: absolute;
-    left: 116px;
-    top: 40px;
+    left: 0px;
+    top: 140px;
 
 }
 .nav-info-category #info-guru-murid2{
     position: absolute;
-    left: 57px;
-    top: 20px;
+    left: 0px;
+    top: 70px;
 }
 .nav-info-category #info-umum2{
     position: absolute;
@@ -3092,7 +3093,7 @@ position: relative;
 
 
 #ensiklopedia-isi.headensiklopedia{
-    background: #000 url('../images/ensihead.png') no-repeat top center;
+    
     width:100%;
 }
 
@@ -3437,26 +3438,26 @@ a .ok:hover{
 #presentase-siswa-head ul li a#presentase-head-guru:hover{
     background: rgba(0, 0, 0, 0) url('../images/guru3.png') no-repeat top left;
 }
-#presentase-siswa-head ul li a#kelas7{
+#presentase-siswa-head ul li a#kelas10{
     /*background:  #E20613 url('../images/presentase-kelas11.png') no-repeat top left;*/
     background:  rgba(0, 0, 0, 0) url('../images/kelas10-2.png') no-repeat top left;
 
 }
-#presentase-siswa-head ul li a#kelas7:hover{
+#presentase-siswa-head ul li a#kelas10:hover{
     background: rgba(0, 0, 0, 0) url('../images/kelas10-3.png') no-repeat top left;
 }
-#presentase-siswa-head ul li a#kelas8{
+#presentase-siswa-head ul li a#kelas11{
     /*background: #E95A0C url('../images/presentase-kelas21.png') no-repeat top left;*/
     background: rgba(0, 0, 0, 0) url('../images/kelas11-2.png') no-repeat top left;
 }
-#presentase-siswa-head ul li a#kelas8:hover{
+#presentase-siswa-head ul li a#kelas11:hover{
     background: rgba(0, 0, 0, 0) url('../images/kelas11-3.png') no-repeat top left;
 }
-#presentase-siswa-head ul li a#kelas9{
+#presentase-siswa-head ul li a#kelas12{
     /*background: #FFDD00 url('../images/presentase-kelas31.png') no-repeat top left;*/
     background: rgba(0, 0, 0, 0) url('../images/kelas12-2.png') no-repeat top left;
 }
-#presentase-siswa-head ul li a#kelas9:hover{
+#presentase-siswa-head ul li a#kelas12:hover{
     background: rgba(0, 0, 0, 0) url('../images/kelas12-3.png') no-repeat top left;
 }
 

@@ -1,4 +1,5 @@
 <div class="pengumuman-content">
+	<img id="logo" src="<?php echo $this->webroot;?>homenew/images/logo.png" style="width: 145px; top: 14px; left: 25px;position: absolute;" alt="icon">
 	<div class="nav-info-category">
 		<div class="nav-info-holder">
 			<a id="info-sek-guru2" href="<?php echo $this->webroot; ?>pengumumen/category/1"><img src="<?php echo $this->webroot; ?>resources/images/info-sek-guru-small1.png" alt="icon"></a>

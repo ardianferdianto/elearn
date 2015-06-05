@@ -7,7 +7,7 @@
 <!-- ========  Logo ======== -->
                       <img class="logo" alt="logotype" src="<?php echo $this->webroot;?>sigma/img/logo.png">
 <!-- ========  User's photo ======== -->
-                      <img class="photo" alt="photo" src="<?php echo $this->webroot;?>sigma/img/for_smp.png">
+                      <img class="photo" alt="photo" src="<?php echo $this->webroot;?>sigma/img/for_sma.png">
                   </div>
                   <h3 class="mobile bcolor">
                       <a href="">iltaen</a>
@@ -46,6 +46,10 @@
                   <a href="#tugas" class="menuitem">
                       <i class="icon-pencil"></i>
                       <div class="menu-title">Tugas</div>
+                  </a>
+                  <a href="#ensiklopedia" class="menuitem">
+                      <i class="icon-archive"></i>
+                      <div class="menu-title">Ensiklopedia</div>
                   </a>
               </div>
 
@@ -230,51 +234,45 @@
 <div id="isi" style="display:none;">
     <div id="about">
         <h1>Pembelajaran <span class="glcolor">Interaktif</span></h1>
-        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore
-            magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+        <p> Modul Pembelajaran Interaktif untuk membantu proses belajar mengajar menjadi lebih interaktif.
         </p>
         <a href="<?php echo $this->webroot; ?>subjects/home"><button>Go </button></a>
     </div>
     <div id="assets">
         <h1>Kumpulan <span class="glcolor">Presentasi</span></h1>
-        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore
-            magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+        <p> Modul Kumpulan Presentasi berisi data presentasi dari guru dan murid yang terdaftar di dalam sistem.
         </p>
         <a href="<?php echo $this->webroot; ?>assets"><button>Go </button></a>
     </div>
     <div id="pengumuman">
         <h1>Modul <span class="glcolor">Pengumuman</span></h1>
-        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore
-            magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+        <p> Modul Pengumuman berisi pengumuman di lingkungan sekolah.
         </p>
        <a href="<?php echo $this->webroot; ?>pengumumen/home"><button>Go </button></a>
     </div>
     <div id="labs">
         <h1>Ebooks <span class="glcolor">Bank</span></h1>
-        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore
-            magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+        <p> Modul Ebooks berisi kumpulan e-book untuk membantu proses belajar mengajar.
         </p>
        <a href="<?php echo $this->webroot; ?>labs"><button>Go </button></a>
     </div>
     <div id="video">
         <h1>Video <span class="glcolor">Interaktif</span></h1>
-        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore
-            magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+        <p> Modul Video berisi kumpulan video untuk membantu proses belajar mengajar.
         </p>
        <a href="<?php echo $this->webroot; ?>labs/video"><button>Go </button></a>
     </div>
     <div id="tugas">
         <h1>Tugas <span class="glcolor">Siswa</span></h1>
-        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore
-            magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+        <p> Modul Tugas berisi data Tugas dari guru dan murid yang terdaftar di dalam sistem.
         </p>
        <a href="<?php echo $this->webroot; ?>tugas"><button>Go </button></a>
+    </div>
+    <div id="ensiklopedia">
+        <h1>Ensiklopedia <span class="glcolor">Digital</span></h1>
+        <p> Modul Ensiklopedia berisi kumpulan video untuk membantu proses belajar mengajar.
+        </p>
+       <a href="<?php echo $this->webroot; ?>subjects/ensiklopedia"><button>Go </button></a>
     </div>
 </div>
 

@@ -67,10 +67,10 @@ a.trash_subject{
 	<ul id="menu_list_top_pembelajaran">
 		<li><a class="button-pembelajaran" id="upload-btn" href="#subjectadd" rel="modal"></a></li>
 		<li><a class="button-pembelajaran" id="download-btn" href="#downloadlist" rel="modal"></a></li>
-		<?php if ($kelasId != 7):?>
+		<?php if ($kelasId != 10):?>
 		<li><a class="button-pembelajaran" id="sebelumnya-btn" href="<?php echo $this->webroot; ?>subjects/kelas/<?php echo $kelasId-1; ?>"></a></li>
 		<?php endif;?>
-		<?php if ($kelasId != 9):?>
+		<?php if ($kelasId != 12):?>
 		<li><a class="button-pembelajaran" id="next-btn" href="<?php echo $this->webroot; ?>subjects/kelas/<?php echo $kelasId+1; ?>"></a></li>
 		<?php endif;?>
 		<li><a class="button-pembelajaran" id="home-btn" href="<?php echo $this->webroot; ?>users/home"></a></li>
@@ -80,7 +80,7 @@ a.trash_subject{
 
 	<div id="pembelajaran-isi">
 		<div style=" position: absolute; top: 500px;">
-		<h2 style=" color: #7B3544; font-size: 30px;">Pembelajaran Interaktif Kelas <?php echo $kelasId;?></h2>
+		<h2 style=" color: #7B3544; font-size: 30px; position: absolute; top: -451px; left: 232px; width: 440px;">Pembelajaran Interaktif Kelas <?php echo $kelasId;?></h2>
 		</div>
 		<!--looping here-->
 		<?php

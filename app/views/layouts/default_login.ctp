@@ -80,7 +80,7 @@ $(function(){
 
 <div id="logocontainer">
 	<img id="logo" src="<?php echo $this->webroot;?>homenew/images/logo.png"/>
-	<img id="class" src="<?php echo $this->webroot;?>images/for_smp.png"/>
+	<img id="class" src="<?php echo $this->webroot;?>sigma/img/for_sma.png"/>
 </div>
 
 <p class="statusload" style="font-size:11.5px;display:none;margin-top:30px;">Memuat data <br/>Mohon menunggu...</p>

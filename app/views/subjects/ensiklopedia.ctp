@@ -66,6 +66,7 @@ a.trash_subject{
 }
 </style>
 <div id="holder-pemb-sma" >
+	<h2 id="tugastitle" style="position: absolute;color: #FFF;left: 28em;top: 3em;">Ensiklopedia</h2>
 	<ul id="menu_list_top_pembelajaran">
 		<li><a class="button-pembelajaran" id="upload-btn" href="#subjectadd" rel="_modal"></a></li>
 		<li><a class="button-pembelajaran" id="download-btn" href="#downloadlist" rel="modal"></a></li>
@@ -74,7 +75,9 @@ a.trash_subject{
 
 		<li><a class="button-pembelajaran" id="home-btn" href="<?php echo $this->webroot; ?>/users/home"></a></li>
 	</ul>
+	<img src="<?php echo $this->webroot;?>homenew/images/logo.png" style="width: 145px; top: 14px; left: 47px;position:absolute;">
 		<div id="ensiklopedia-isi" class="headensiklopedia">
+
 			<?php foreach ($ensiklopedia as $subject):
 			?>
 			<div class="itemisotope tooltip" title="<?php echo $subject['Subject']['name'] .' - '.$subject['Pelajaran']['nama']. '-' .$subject['Grade']['keterangan']?>">

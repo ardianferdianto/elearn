@@ -150,7 +150,7 @@ line-height: 0;
     <div class="logo" style="text-align:center;width:100%;margin:0 auto;margin-top:40px;">
         <img src="<?php echo $this->webroot;?>homenew/images/logo.png" style="width: 145px;"/>
         <h1 style="color:#fff; margin-top: 24px; font-size: 20px;">DIREKTORI PEMBELAJARAN INTERAKTIF</h1>
-        <h2 style="color:#fff; font-size: 20px;">UNTUK SMP</h2>
+        <h2 style="color:#fff; font-size: 20px;">UNTUK SMA</h2>
     </div>
     
     <div id="st_loading" class="st_loading"><span>Loading...</span></div>
@@ -160,7 +160,7 @@ line-height: 0;
                 <div class="st_thumbs">
                    
                     <?php 
-                    $number = 6;
+                    $number = 9;
                     $numberclass = count($classlist);
                     foreach ($classlist as $item):
                     $number ++;
